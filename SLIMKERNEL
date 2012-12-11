@@ -1,5 +1,5 @@
 cpu		HAMMER
-ident		GENERIC
+ident		SLIMKERNEL
 
 options 	SCHED_ULE		# ULE scheduler
 options 	PREEMPTION		# Enable kernel thread preemption

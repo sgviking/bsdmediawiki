@@ -1,0 +1,11 @@
+# Device	Mountpoint	FStype	Options	Dump	Pass#
+/dev/ada0p3	none		swap	sw	0	0
+/dev/ada0p2	/		ufs	rw	1	1
+/dev/ada0p4	/usr/local/jails		ufs	rw	2	2
+/usr/local/jails/template	/usr/local/jails/nginx	nullfs	ro	0	0
+/usr/local/jails/template	/usr/local/jails/mysql	nullfs	ro	0	0
+/usr/local/jails/template	/usr/local/jails/phpfpm	nullfs	ro	0	0
+/usr/local/jails/js/nginx	/usr/local/jails/nginx/s	nullfs	rw	0	0
+/usr/local/jails/js/mysql	/usr/local/jails/mysql/s	nullfs	rw	0	0
+/usr/local/jails/js/phpfpm	/usr/local/jails/phpfpm/s	nullfs	rw	0	0
+/usr/local/jails/nginx/s/usr-local/www/mediawiki        /usr/local/jails/phpfpm/s/usr-local/www/mediawiki       nullfs  rw      0       0
